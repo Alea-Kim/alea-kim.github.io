@@ -161,13 +161,13 @@ sup {
 
 a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
 }
 a:hover {
   /* color: #17a2b8; */
   color: #E09B91;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -2917,10 +2917,10 @@ fieldset:disabled a.btn {
 }
 .btn-link:hover {
   color: #117964;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4038,6 +4038,8 @@ input[type=button].btn-block {
 }
 
 .navbar-toggler {
+  position: absolute;
+  right: 50px;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -9915,7 +9917,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 
   a:not(.btn) {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   abbr[title]::after {
@@ -10268,6 +10270,14 @@ form .row:first-child .floating-label-form-group {
   background-color: #E09B91;
 }
 
+.nav-container{
+  display: flex;
+  align-items: center;
+}
+
+#logo{
+  height:35px;
+}
 
 #me{
   color: white;
