@@ -4039,7 +4039,7 @@ input[type=button].btn-block {
 
 .navbar-toggler {
   position: absolute;
-  right: 50px;
+  right: 0.5%;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
